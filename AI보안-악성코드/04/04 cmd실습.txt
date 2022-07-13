@@ -1,0 +1,3 @@
+tasklist | findstr chrome
+tasklist | findstr 13076 #(chrome pid == 13076)
+netstat -ano | findstr 13076
